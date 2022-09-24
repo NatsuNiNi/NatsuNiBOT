@@ -1,11 +1,11 @@
 module.exports = {
-  Admins: ["719534548114997279", "279558518783082497"], // Admins of the bot, I don't know what this do.
+  Admins: ["UserID", "UserID", // Admins of the bot, I don't know what this do.
   ExpressServer: true, // If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || "!", // Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/", // Support Server Link
-  Token: process.env.Token || "MTAyMjgwODA1MTcyNTYzNTYxNQ.GGB2Ur.kAbft9A3I062rLntd3g4LMX4K4KiX5m5wPaAt4", // Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "719534548114997279", // Discord Client ID
+  Token: process.env.Token || "", // Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "", // Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "", // Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], // Discord OAuth2 Scopes
   ServerDeafen: true, // If you want bot to stay deafened
@@ -30,16 +30,16 @@ module.exports = {
   // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
   Lavalink: {
     id: "Main", //- Used for indentifier. You can set this to whatever you want.
-    host: " node1.gglvxd.tk", //- The host name or IP of the lavalink server.
+    host: "", //- The host name or IP of the lavalink server.
     port: 443, // The port that lavalink is listening to. This must be a number!
-    pass: "free", //- The password of the lavalink server.
+    pass: "", //- The password of the lavalink server.
     secure: true, // Set this to true if the lavalink uses SSL. if not set it to false.
     retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
     retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
   },
   // Spotify Integration, allows you to enter a spotify link.
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "9ffcce1ed16a421fa79d5c77999e2319", // Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "6924fa8392c34095b971af4dab2e9a9d", // Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "", // Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "", // Spotify Client Secret
   },
 };
