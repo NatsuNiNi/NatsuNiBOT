@@ -17,8 +17,6 @@ Nothing new now :D
 
 <div align="center"><img src="/assets/Screenshot_1.png"></div><div align="center"><img src="/assets/Screenshot_2.png"></div><div align="center"><img src="/assets/Screenshot_3.png"></div>
 
-<div align="center"><img src="/assets/feature.png"></div>
-
 ## ✨ Contributors
 
 Contributions are always welcomed :D 
