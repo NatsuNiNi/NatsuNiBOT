@@ -15,7 +15,7 @@ Nothing new now :D
 
 ## 📸 Screenshots
 
-<div align="left"><img src="/assets/Screenshot_1.png"></div><div align="center"><img src="/assets/Screenshot_2.png"></div><div align="right"><img src="/assets/Screenshot_3.png"></div>
+<div align="center"><img src="/assets/Screenshot_1.png"></div><div align="center"><img src="/assets/Screenshot_2.png"></div><div align="center"><img src="/assets/Screenshot_3.png"></div>
 
 <div align="center"><img src="/assets/feature.png"></div>
 
@@ -26,5 +26,3 @@ Contributions are always welcomed :D
 <a href="https://github.com/NatsuNiNi/NatsuNiBOT/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=NatsuNiNi/NatsuNiBot" />
 </a>
-
-Made with :heart: and JavaScript!
