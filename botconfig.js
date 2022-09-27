@@ -1,10 +1,10 @@
 module.exports = {
-  Admins: ["UserID", "UserID", // Admins of the bot, I don't know what this do.
+  Admins: ["719534548114997279", "279558518783082497"], // Admins of the bot, I don't know what this do.
   ExpressServer: true, // If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || "!", // Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/", // Support Server Link
-  Token: process.env.Token || "", // Discord Bot Token
+  Token: process.env.Discord_Token || "", // Discord Bot Token
   ClientID: process.env.Discord_ClientID || "", // Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "", // Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], // Discord OAuth2 Scopes
@@ -22,17 +22,17 @@ module.exports = {
 
   Presence: {
     status: "online", // You can show online, idle, and dnd
-    name: "Calc.", // The message shown
-    type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
+    name: "泥岩", // The message shown
+    type: "PLAYING", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
   // You need a lavalink server for this bot to work!!!!
   // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
   Lavalink: {
     id: "Main", //- Used for indentifier. You can set this to whatever you want.
-    host: "", //- The host name or IP of the lavalink server.
+    host: "lavalink.oops.wtf", //- The host name or IP of the lavalink server.
     port: 443, // The port that lavalink is listening to. This must be a number!
-    pass: "", //- The password of the lavalink server.
+    pass: "www.freelavalink.ga", //- The password of the lavalink server.
     secure: true, // Set this to true if the lavalink uses SSL. if not set it to false.
     retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
     retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
